@@ -1,0 +1,158 @@
+body {
+  padding: 0;
+  margin: 0;
+  
+  
+  background-image:linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+}
+.main {
+  background-color: wheat;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-left: 400px;
+  margin-top: 20px;
+  max-width: 540px;
+  text-align: center;
+  border-radius: 10px;
+
+}
+
+.heading_div {
+  background-color: rgb(135, 96, 240);
+  padding: 1px;
+  color: whitesmoke;
+
+
+}
+
+input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  height: 35px;
+  
+  text-align: center;
+  margin: auto;
+  outline: none;
+  margin-top: 15px;
+
+  color: blue;
+  background: transparent;
+
+
+  font-size: 27px;
+}
+
+input:hover {
+
+  outline: none;
+
+}
+
+
+.item_aad_div {
+  font-size: 27px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.btn {
+  background-color: rgb(29, 24, 24);
+  color: white;
+  margin-left: 40%;
+  padding: 10px;
+  margin-top: 15px;
+  border: none;
+  cursor: pointer;
+  width: 90px;
+  transition: 0.5s ease-in;
+}
+
+.btn:hover {
+  background-color: green;
+  outline: none;
+  transition: 0.5s ease-out;
+}
+
+.td {
+  font-size: 10px;
+  /* background-color: gold; */
+
+  margin-top: 20px;
+  text-align: left;
+  
+  display: flex;
+  flex-direction: column;
+  
+
+}
+
+.right-one {
+ 
+  border: none;
+  margin-left: 10px;
+ margin-top: 5px;
+  background-color: rgb(175, 47, 47);
+  cursor: pointer;
+  color: white;
+  padding: 5px;
+
+
+}
+
+.right-two {
+  background-color: green;
+  margin-top: 5px;
+  border: none;
+  margin-left: 10px;
+ color: white;
+  cursor: pointer;
+  padding: 5px;
+
+
+}
+
+.border {
+  border-bottom: 2px solid #cccccccc;
+  padding: 5px;
+  padding-left: 15px;
+}
+
+.deleteAll{
+  background-color: gray;
+  margin-top: 20px;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  width: 118px;
+  transition: 0.5s ease-in;
+
+
+}
+.deleteAll:hover{
+  background-color: red;
+  transition: 0.5s ease-out;
+
+  
+}
+.center{
+  margin: auto;
+  color: black;
+  padding-bottom: 10px;
+}
+.center-text{
+  text-align: center;
+}
+.size{
+  font-size: 20px;
+  margin-top: 12px;
+}
+
+tr , td , th{
+  padding: 10px;
+  border: none;
+  
+}
+
