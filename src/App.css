@@ -1,58 +1,44 @@
 body {
   padding: 0;
   margin: 0;
-  
-  
-  background-image:linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+
+  background-color: lightcoral;
 }
 .main {
   background-color: wheat;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  margin-left: 400px;
-  margin-top: 20px;
-  max-width: 540px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin: auto;
+  width: 50%;
   text-align: center;
   border-radius: 10px;
-
 }
 
 .heading_div {
   background-color: rgb(135, 96, 240);
   padding: 1px;
   color: whitesmoke;
-
-
 }
 
 input {
   border-top: none;
   border-left: none;
   border-right: none;
-  height: 35px;
-  
   text-align: center;
   margin: auto;
   outline: none;
-  margin-top: 15px;
-
+  margin-top: 10px;
   color: blue;
   background: transparent;
-
-
-  font-size: 27px;
+  font-size: 20px;
 }
 
 input:hover {
-
   outline: none;
-
 }
 
-
 .item_aad_div {
-  font-size: 27px;
-  margin-top: 10px;
+  font-size: 20px;
   display: flex;
   flex-direction: column;
 }
@@ -60,9 +46,10 @@ input:hover {
 .btn {
   background-color: rgb(29, 24, 24);
   color: white;
-  margin-left: 40%;
+
+  margin: auto;
   padding: 10px;
-  margin-top: 15px;
+  margin-top: 10px;
   border: none;
   cursor: pointer;
   width: 90px;
@@ -77,28 +64,21 @@ input:hover {
 
 .td {
   font-size: 10px;
-  /* background-color: gold; */
 
   margin-top: 20px;
-  text-align: left;
-  
+
   display: flex;
   flex-direction: column;
-  
-
 }
 
 .right-one {
- 
   border: none;
   margin-left: 10px;
- margin-top: 5px;
+  margin-top: 5px;
   background-color: rgb(175, 47, 47);
   cursor: pointer;
   color: white;
   padding: 5px;
-
-
 }
 
 .right-two {
@@ -106,11 +86,9 @@ input:hover {
   margin-top: 5px;
   border: none;
   margin-left: 10px;
- color: white;
+  color: white;
   cursor: pointer;
   padding: 5px;
-
-
 }
 
 .border {
@@ -119,7 +97,7 @@ input:hover {
   padding-left: 15px;
 }
 
-.deleteAll{
+.deleteAll {
   background-color: gray;
   margin-top: 20px;
   color: white;
@@ -128,31 +106,47 @@ input:hover {
   cursor: pointer;
   width: 118px;
   transition: 0.5s ease-in;
-
-
 }
-.deleteAll:hover{
+.deleteAll:hover {
   background-color: red;
   transition: 0.5s ease-out;
-
-  
 }
-.center{
+.center {
   margin: auto;
   color: black;
   padding-bottom: 10px;
 }
-.center-text{
+.center-text {
   text-align: center;
 }
-.size{
+.size {
   font-size: 20px;
   margin-top: 12px;
 }
 
-tr , td , th{
+tr,
+td,
+th {
   padding: 10px;
   border: none;
   
 }
-
+table{
+  width: 90%;
+  margin: auto;
+}
+@media (max-width:768px){
+   .main{
+    margin-top: 20px;
+   }
+   input{
+    width: 70%;
+  }
+  table{
+     width: 50%;
+   }
+   tr{
+    display: flex;
+    flex-direction: column;
+   }
+}
